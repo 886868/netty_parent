@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spring_netty:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="696dd40c-1e6b-4368-9b5e-d12ca56bf3b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/simple_netty_client/src/main/java/com/mrle/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple_netty_client/src/main/java/com/mrle/client/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_netty_client/target/classes/com/mrle/client/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/simple_netty_client/target/classes/com/mrle/client/NettyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_netty/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,7 +70,7 @@
           <entry key="class" value="3" />
           <entry key="java" value="56" />
           <entry key="pom" value="1" />
-          <entry key="xml" value="10" />
+          <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -71,7 +78,7 @@
           <entry key="CLASS" value="3" />
           <entry key="JAVA" value="56" />
           <entry key="UML" value="4" />
-          <entry key="XML" value="11" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -79,7 +86,7 @@
           <entry key="class" value="1" />
           <entry key="dummy" value="10" />
           <entry key="java" value="4828" />
-          <entry key="xml" value="23" />
+          <entry key="xml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -87,27 +94,13 @@
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="4828" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="XML" value="23" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_netty_client/src/main/java/com/mrle/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple_netty_client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -178,19 +171,28 @@
         <entry file="file://$PROJECT_DIR$/spring_netty/src/main/java/com/mrle/netty/SocketHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-574">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple_netty_client/src/main/java/com/mrle/client/NettyClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simple_netty_client/src/main/java/com/mrle/client/NettyClient.java">
+        <entry file="file://$PROJECT_DIR$/spring_netty/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="487">
+              <caret line="94" column="40" lean-forward="true" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -227,7 +229,6 @@
         <option value="$PROJECT_DIR$/spring_netty/src/main/java/com/mrle/Application.java" />
         <option value="$PROJECT_DIR$/simple_netty/src/main/java/com/mrle/hello/simple/PredicateTest.java" />
         <option value="$PROJECT_DIR$/spring_netty/src/main/java/com/mrle/netty/ServerInit.java" />
-        <option value="$PROJECT_DIR$/spring_netty/pom.xml" />
         <option value="$PROJECT_DIR$/spring_netty/src/main/java/com/mrle/controller/CommController.java" />
         <option value="$PROJECT_DIR$/executor/src/main/java/com/mrle/executor/ExecutorUtil.java" />
         <option value="$PROJECT_DIR$/spring_netty/src/main/java/com/mrle/netty/HeartbeatHandler.java" />
@@ -240,6 +241,7 @@
         <option value="$PROJECT_DIR$/spring_netty/src/main/java/com/mrle/netty/ServerBoot.java" />
         <option value="$PROJECT_DIR$/spring_netty/src/main/java/com/mrle/netty/SocketHandler.java" />
         <option value="$PROJECT_DIR$/simple_netty_client/src/main/java/com/mrle/client/NettyClient.java" />
+        <option value="$PROJECT_DIR$/spring_netty/pom.xml" />
       </list>
     </option>
   </component>
@@ -255,6 +257,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_netty" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_netty" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
@@ -283,90 +301,7 @@
             <path>
               <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="simple_netty_client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="simple_netty_client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="simple_netty_client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="simple_netty_client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="simple_netty_client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
               <item name="spring_netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mrle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -382,12 +317,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548165870993" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548166710182" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_netty" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -528,18 +463,17 @@
       <workItem from="1547463283460" duration="2505000" />
       <workItem from="1547904360172" duration="603000" />
       <workItem from="1548163375419" duration="1233000" />
-      <workItem from="1548165397395" duration="471000" />
+      <workItem from="1548165397395" duration="1277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49234000" />
+    <option name="totallyTimeSpent" value="50040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.17438364" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.17438364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -566,7 +500,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.32952496" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -668,13 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_netty/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -959,7 +886,7 @@
     <entry file="file://$PROJECT_DIR$/spring_netty/src/main/java/com/mrle/netty/SocketHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-574">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -989,11 +916,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple_netty_client/src/main/java/com/mrle/client/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="208">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_netty/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="94" column="40" lean-forward="true" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1003,10 +937,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>spring_netty:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
