@@ -28,7 +28,7 @@ public class NettyClient {
 
         ExecutorService es = Executors.newCachedThreadPool();
 
-        for (int i = 0; i < 4000; i++) {
+        for (int i = 0; i < 20; i++) {
             es.execute(()->{
                 try {
                     ChannelFuture channelFuture = bootstrap.connect(host, port);
