@@ -11,6 +11,10 @@
     <modules>
         <module>simple_netty</module>
         <module>spring_netty</module>
+        <module>executor</module>
+        <module>spring_netty_client</module>
+        <module>deffer</module>
+        <module>simple_netty_client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

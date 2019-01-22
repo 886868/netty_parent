@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="deffer" />
+        <module name="executor" />
         <module name="simple_netty" />
+        <module name="simple_netty_client" />
         <module name="spring_netty" />
+        <module name="spring_netty_client" />
       </profile>
     </annotationProcessing>
   </component>

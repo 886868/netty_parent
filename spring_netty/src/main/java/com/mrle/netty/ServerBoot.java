@@ -13,8 +13,8 @@ import java.net.InetSocketAddress;
 
 @Component
 public class ServerBoot {
-    private EventLoopGroup bossGroup = new NioEventLoopGroup();
-    private EventLoopGroup workGroup = new NioEventLoopGroup();
+    private EventLoopGroup bossGroup = new NioEventLoopGroup(2);
+    private EventLoopGroup workGroup = new NioEventLoopGroup(4);
     private Channel channel;
 
     public ChannelFuture start(InetSocketAddress address) throws InterruptedException {
